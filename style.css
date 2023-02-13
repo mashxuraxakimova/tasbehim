@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.background {
+    background-color: black;
+}
+
+.block {
+    width: 370px;
+    height: 300px;
+    padding: 30px 20px;
+    border-radius: 100px;
+    background-color: red;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.press {
+    position: absolute;
+    top: 320px;
+    left: 525px;
+    width: 310px;
+    border-radius: 0 0 90px 90px;
+    height: 200px;
+    background-color: red;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 30px;
+    text-align: right;
+    width: 100%;
+    background-color: rgb(201, 201, 201);
+    border: 5px solid white;
+    border: 30px solid black;
+}
+
+.btn1 {
+    z-index: 99;
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 70%;
+    background-color: white;
+    transition: 1s;
+    border: 2px solid rgb(194, 32, 32);
+    margin: 50px 0 0 0px;
+}
+
+.btn2 {
+    position: absolute;
+    top: 310px;
+    left: 760px;
+    z-index: 99;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid rgb(194, 32, 32);
+    transition: 1s;
+}
+
+.btnall {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin: 5px;
+}
+
+button:active {
+
+    background-color: rgb(139, 126, 239);
+}
